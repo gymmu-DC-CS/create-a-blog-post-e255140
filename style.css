@@ -1,11 +1,92 @@
-*,
-*::before,
-*::after {
-  box-sizing: content-box;
+#Dearlittleme{
+    font-family: 'Brush Script MT', cursive;
+    background-color: grey;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    }
+
+h1{
+        font-size: 90px;
 }
 
-body {
-  margin: 0;
-  background-color: lightgray;
-  font-family: sans-serif;
+h2{
+        font-size: 61px;
+        font-family: 'Brush Script MT', cursive;;
 }
+
+h3{
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+
+h5{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+
+h6{
+    font-size: 90px;
+}
+
+#end{
+    font-family: 'Brush Script MT', cursive;
+    background-color: grey;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+@keyframes rotate {
+    0% {transform:rotate(0deg)}
+    100% {transform:rotate(360deg)}
+}
+
+#little{
+    animation-name: rotate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes slidein {
+    from { transform: translateX(0%);
+    }
+    to { transform: translateX(100%);
+    }
+}
+
+#nikky{
+    animation-name: slidein;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#circle{
+    border-radius: 40%;
+    width: 150px;
+    height: 150px;
+    background-color: lightslategray;
+    
+}
+
+#yellow{
+    animation-name: slidein;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#grey{
+    animation-name: slidein;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
